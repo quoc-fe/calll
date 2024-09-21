@@ -25,3 +25,16 @@ body {
     text-wrap: balance;
   }
 }
+@font-face {
+  font-family: "pony";
+  src: url("fonts/Pony.ttf") format("woff2"),
+    url("fonts/Pony.ttf") format("woff"),
+    url("fonts/Pony.ttf") format("truetype");
+  font-weight: 400;
+}
+body,
+html {
+  font-family: "pony";
+  color: black;
+  font-size: 16px;
+}
